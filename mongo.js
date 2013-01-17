@@ -1,8 +1,7 @@
-
 var util    = require('util');
 
 // USE npm mongo
-var mongolib = require('./node/node-mongodb-native/lib/mongodb');
+var mongolib = require('mongodb');
 
 var name   = "test";
 var server = "localhost";
